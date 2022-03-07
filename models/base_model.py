@@ -3,6 +3,7 @@
 Contains class BaseModel
 """
 
+
 import models
 import uuid
 from datetime import datetime
@@ -10,10 +11,12 @@ from datetime import datetime
 
 time = "%Y-%m-%dT%H:%M:%S.%f"
 
+
 class BaseModel:
+    """ Creates a file named models/base_model.py """
 
     def __init__(self, *args, **kwargs):
-        """ Initialization of the base model class"""
+        """ Initialization of the base model class """
         if kwargs:
             for key, value in kwargs.items():
                 if key != "__class__":
@@ -35,12 +38,14 @@ class BaseModel:
                                          self.__dict__)
 
     def save(self):
-        """ Save and updates the attribute 'updated_at' with the current datetime """
+        """ Save and updates the attribute 'updated_at'
+        with the current datetime """
         self.updated_at = datetime.now()
         models.storage.save()
 
     def to_dict(self):
-        """ Creates and returns a dictionary containing all keys/values of the instance """
+        """ Creates and returns a dictionary containing
+        all keys/values of the instance """
         new_dict = self.__dict__.copy()
         if "created_at" in new_dict:
             new_dict["created_at"] = new_dict["created_at"].strftime(time)

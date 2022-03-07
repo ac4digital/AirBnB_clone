@@ -3,9 +3,10 @@
 Contains class BaseModel
 """
 
-from datetime import datetime
 import models
 import uuid
+from datetime import datetime
+
 
 time = "%Y-%m-%dT%H:%M:%S.%f"
 

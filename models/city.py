@@ -15,4 +15,3 @@ class City(BaseModel):
         """ Initializes city"""
 
         super().__init__(*args, **kwargs)
-    

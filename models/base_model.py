@@ -16,7 +16,7 @@ class BaseModel:
     """ Creates a file named models/base_model.py """
 
     def __init__(self, *args, **kwargs):
-        """ Initialization of the base model class """
+        """ Initialization of the BaseModel class """
         if kwargs:
             for key, value in kwargs.items():
                 if key != "__class__":
@@ -29,8 +29,8 @@ class BaseModel:
             self.id = str(uuid.uuid4())
             self.created_at = datetime.now()
             self.updated_at = self.created_at
-            models.storage.new(self)
-            models.storage.save()
+            #models.storage.new(self)
+            #models.storage.save()
 
     def __str__(self):
         """ Prints the string representation of the BaseModel class """
@@ -41,7 +41,7 @@ class BaseModel:
         """ Save and updates the attribute 'updated_at'
         with the current datetime """
         self.updated_at = datetime.now()
-        models.storage.save()
+        #models.storage.save()
 
     def to_dict(self):
         """ Creates and returns a dictionary containing

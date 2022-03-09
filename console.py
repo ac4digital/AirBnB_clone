@@ -2,7 +2,6 @@
 """ AirBnB Console """
 
 import cmd
-from lib2to3.pgen2.token import AT
 import shlex
 import models
 from models.amenity import Amenity

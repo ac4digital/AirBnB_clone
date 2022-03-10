@@ -1,0 +1,12 @@
+/* commons css 2-index */
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .centered {
+        position: absolute; 
+        top: 50%; 
+        left: 50%;
+    }

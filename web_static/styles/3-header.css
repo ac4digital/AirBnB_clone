@@ -1,0 +1,25 @@
+/* header css 2-index */
+    
+    header {
+        background-color: #FFF; 
+        height: 70px; 
+        width: 100%; 
+        border-bottom: 1px solid #CCC;
+        display: block;
+    }
+
+    .container_logo {
+        width: 100%;
+        height: 70px;
+        position: relative;
+    }
+
+    .logo {
+        background: url("../images/logo.png") no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+    }

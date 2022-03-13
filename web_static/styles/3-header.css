@@ -1,25 +1,17 @@
-/* header css 2-index */
-    
-    header {
-        background-color: #FFF; 
-        height: 70px; 
-        width: 100%; 
-        border-bottom: 1px solid #CCC;
-        display: block;
-    }
+/* stylesheet 3-header.css */
 
-    .container_logo {
-        width: 100%;
-        height: 70px;
-        position: relative;
-    }
+header {
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+}
 
-    .logo {
-        background: url("../images/logo.png") no-repeat;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 50%;
-        left: 20px;
-        transform: translateY(-50%);
-    }
+.logo {
+    width: 142px;
+    height: 60px;
+    background: url("../images/logo.png") no-repeat center;
+    padding-left: 20px;
+}

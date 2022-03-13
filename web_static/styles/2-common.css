@@ -1,12 +1,6 @@
-/* commons css 2-index */
+/* stylesheet 2-common.css */
 
-    body {
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .centered {
-        position: absolute; 
-        top: 50%; 
-        left: 50%;
-    }
+body {
+    margin: 0;
+    padding: 0;
+}

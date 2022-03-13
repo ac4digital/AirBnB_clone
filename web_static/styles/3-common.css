@@ -1,16 +1,9 @@
-/* commons css 2-index */
+/* stylesheet 3-common.css */
 
-    body {
-        margin: 0px;
-        padding: 0px;
-        font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #484848;
-    }
-
-    .centered {
-        position: absolute; 
-        top: 50%; 
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}

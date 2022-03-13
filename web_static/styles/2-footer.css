@@ -1,15 +1,14 @@
-/* footer css 2-index */
+/* stylesheet 2-footer.css */
 
-    footer {
-        background-color: #00FF00; 
-        height: 60px; 
-        width: 100%; 
-        position: fixed; 
-        bottom: 0px;
-    }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #00FF00;
+    height: 60px;
+}
 
-    .centered {
-        position: absolute; 
-        top: 50%; 
-        left: 50%;
-    }
+footer p {
+    text-align: center;
+    margin: 20px;
+}
